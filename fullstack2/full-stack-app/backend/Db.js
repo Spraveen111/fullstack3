@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export async function main() {
   const uri =
-    "mongodb+srv://praveencan111:2br9evIzOS0NGLOz@vegitablescluster.z4uwiqi.mongodb.net/Vegitables?retryWrites=true&w=majority";
+    
 
   try {
     await mongoose.connect(uri, {
